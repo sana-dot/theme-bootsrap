@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8665d9d-4494-4944-8871-e208e82908a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doctor1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doctor2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doctor3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/doctor4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/service-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimorial.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mBkTAOFQT4xC8HBZqBYDFLdgdl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taste" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8665d9d-4494-4944-8871-e208e82908a5" name="Default Changelist" comment="" />
+      <created>1608974381604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608974381604</updated>
+      <workItem from="1608974383779" duration="24578000" />
+      <workItem from="1609057934923" duration="9195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
