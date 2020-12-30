@@ -2,14 +2,18 @@
 <html>
 <head>
 	<title> Medecin </title>
+    <!--  header
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	-->
+    <?php include("includes/header.php");?>
 </head>
 <body>
 
 <!-- Star Navbar -->
-
+<?php include("includes/navbar.php");?>
+<!--
     <nav class="navbar navbar-expand-lg  ">
       <div class="container">
           <a class="navbar-brand" href="#">Medical</a>
@@ -17,34 +21,37 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="#main-nav">
-            <ul class="navbar-nav text-uppercase ml-auto"> <!-- ml-auto : el menu yji à gauche-->
+            <ul class="navbar-nav text-uppercase ml-auto">
               <li class="nav-item active">
-                <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link " href="index.php">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
+                <a class="nav-link" href="service.php.">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="about.php">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">testimorial</a>
+                <a class="nav-link" href="testimorial.php">testimorial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
+                <a class="nav-link" href="contact.php">contact</a>
               </li>
             </ul>
           </div>
       </div>
     </nav>
+-->
 <!-- End NavBar-->
 
 <!-- Start Slider-->
 
+<?php include("includes/slider.php");?>
+<!--
 <div class="slider">
   <img src="images/bg-banner.jpg" alt="...">
 </div>
-
+-->
 <!-- End Slider-->
 
 <!-- Start Service -->
@@ -159,6 +166,7 @@
         </div>
     </div>
 </section>
+<!-- End doctors -->
 
 <!-- Start Patient -->
 
@@ -293,6 +301,8 @@
 <!-- End  Contact  -->
 
 <!-- Start Footer  -->
+<?php include("includes/footer.php");?>
+<!--
 <section class="footer">
     <div class="container">
         <div class="row">
@@ -323,9 +333,13 @@
         <h5 class="text-center"> &copy; Copyright Medilab Theme. All Rights Reserved Designed by <a href="#"> BootsrapMade.com</a> </h5>
     </div>
 </section>
+-->
 <!-- End Footer   -->
+<?php include("includes/script.php");?>
+<!--
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+-->
 </body>
 </html>
