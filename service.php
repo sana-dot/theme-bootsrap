@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> about </title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title> Services </title>
+
+    <!--  header
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" type="text/css" href="css/main.css">
+   -->
+    <?php include("includes/header.php");?>
 </head>
 <body>
 
@@ -55,43 +59,45 @@
 <!-- Start Service -->
 <section class="service">
     <div class="container">
-        <h1 class="h1 text-uppercase text-center"> Our Services</h1>
-        <hr>
         <div class="row ">
-            <div class="col-lg-9">
-                <p class="p1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            <div class="col-sm-4">
+                <h2 class="h1 text-uppercase text-center"> Our Services</h2>
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                     when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <img src="images/img-1.jpg">
             </div>
-            <div class="col-lg-3">
-                <div class="hour">
-                    <i class="fa fa-stethoscope  fa-2x icon"> </i>
-                    <h2 class="h2"> 24 Hour Support </h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    </p>
+            <div class="col-sm-8">
+                <div class="row">
+                    <div class="info col-sm-4">
+                        <i class="fa fa-stethoscope  fa-2x icon"> </i>
+                        <h2 class="h2"> 24 Hour Support </h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                    <div class="info col-sm-4">
+                        <i class="fa fa-ambulance fa-2x icon"> </i>
+                        <h2 class="h2"> Emergency Services </h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
                 </div>
-                <div class="emergency">
-                    <i class="fa fa-ambulance fa-2x icon"> </i>
-                    <h2 class="h2"> Emergency Services </h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    </p>
-                </div>
-                <div class="cap">
-                    <i class="fa fa-thermometer-quarter fa-2x icon"> </i>
-                    <h2 class="h2"> Thermometre </h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    </p>
-                </div>
-                <div class="medical">
-                    <i class="fa fa-medkit fa-2x icon"> </i>
-                    <h2 class="h2"> Medical Counseling </h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                    </p>
+                <div class="row">
+                    <div class="info col-sm-4">
+                        <i class="fa fa-thermometer-quarter fa-2x icon"> </i>
+                        <h2 class="h2"> Health Care  </h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
+                    <div class="info col-sm-4">
+                        <i class="fa fa-medkit fa-2x icon"> </i>
+                        <h2 class="h2"> Medical Counseling </h2>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,6 +105,162 @@
     </div>
 </section>
 <!-- End Service -->
+
+<!-- Start dentiste -->
+<section class="dentiste">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-05.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-06.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-07.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/service-08.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">General and preventive care </h5>
+                        <ul>
+                            <li> Sealants </li>
+                            <li> Root Canal </li>
+                            <li> Extractions </li>
+                            <li> Scaling and root planing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- End dentiste -->
+
+<!-- Start emergency -->
+<section class="emergency">
+    <div class="container case">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1> Emergency Case </h1>
+                <p> It is a long established fact that a reader will be distracted by the readable content
+                    of a page when looking at its layout. </p>
+                <a href="#"> read more</a>
+            </div>
+            <div class="col-sm-4">
+                <h1> Emergency Case </h1>
+                <p> It is a long established fact that a reader will be distracted by the readable content
+                    of a page when looking at its layout. </p>
+                <a href="#"> read more</a>
+            </div>
+            <div class="col-sm-4">
+                <h1> Opening Hours </h1>
+                <ul class="list-unstyled">
+                    <li> Monday - Friday 8:00 - 17:00 </li>
+                    <li> Saturday 9:30 - 17:30 </li>
+                    <li> Sunday closed </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- End emergency -->
 
 <!-- Start Footer  -->
 <?php include("includes/footer.php");?>

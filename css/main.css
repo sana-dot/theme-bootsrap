@@ -27,15 +27,27 @@ second color : #34aec1
     margin-left: 20px;
     color: #FFF;
 }
+
+.navbar .navbar-nav .nav-link:hover
+{
+    color: #533f03;
+}
+
+.navbar .navbar-nav .nav-link:active
+{
+    color: #533f03;
+}
 /* End Navbar */
 /* start slider  */
 .slider
 {
     background-size: cover;
-    margin-bottom: 50px;
     width:100%;
+    height: auto;
     padding: 0;
+    margin:0;
     display: block;
+
 }
 /* End slider  */
 /* start service  */
@@ -47,7 +59,7 @@ second color : #34aec1
 .service .h1
 {
     color: #34aec1;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 50px;
 }
 .service hr
@@ -66,15 +78,64 @@ second color : #34aec1
 }
 .service .h2
 {
+    font-size: 22px;
     color: #34aec1;
 }
-.service .hour, .emergency, .cap, .medical
+.service .info
 {
+    margin-left: 60px;
     padding: 0 20px;
     margin-bottom: 20px;
 }
+.service .info p
+{
+    width:300px;
+    height: auto;
+    margin-top: 20px;
+}
 
 /* End service  */
+/* Start dentiste service */
+
+.dentiste
+{
+    padding: 30px;
+
+}
+
+.dentiste .col-sm-4
+{
+    margin-bottom: 30px;
+}
+
+/* End dentiste service */
+
+/* Start emergency  */
+.emergency .case
+{
+    padding: 50px;
+    background-color: #34aec1 ;
+    color: #FFF;
+    margin-bottom: 100px;
+}
+.emergency p
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.emergency a
+{
+    padding: 8px 20px;
+    color: #FFF;
+    border: 1px solid #FFF;
+}
+.emergency ul li
+{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* End emergency  */
+
 /* Start doctor  */
 .doctor
 {
@@ -246,3 +307,5 @@ second color : #34aec1
     margin-bottom: 10px;
 }
 /* End Footer  */
+
+

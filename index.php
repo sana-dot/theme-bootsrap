@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Medecin </title>
+	<title> Home </title>
     <!--  header
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -60,13 +60,13 @@
         <h1 class="h1 text-uppercase text-center"> Our Services</h1>
         <hr>
         <div class="row ">
-                <div class="col-lg-9">
+                <div class="col-sm-9">
                     <p class="p1"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <img src="images/img-1.jpg">
                 </div>
-                <div class="col-lg-3">
+                <div class="col-sm-3">
                     <div class="hour">
                         <i class="fa fa-stethoscope  fa-2x icon"> </i>
                         <h2 class="h2"> 24 Hour Support </h2>
